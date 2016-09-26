@@ -33,7 +33,7 @@ var main = function ()
             $new_comment.hide();
             $(".comments").append($new_comment);
             $new_comment.fadeIn();
-            $(".comments p:last-child").css("background-color", backgroundcolor);
+            //$(".comments p:last-child").css("background-color", backgroundcolor);
             ($whichUser).val("");
 
         }

@@ -82,6 +82,15 @@ main {
     background: #ccff99;
 }
 
+.comments p:nth-child(odd)
+{
+  background: #ccff99;
+}
+.comments p:nth-child(even)
+{
+  background: #ffccff;
+}
+
 footer {
     font-size: smaller;
     margin-top: 5px;
