@@ -71,14 +71,15 @@ main {
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 5px;
+
 }
 
-.comments p:nth-child(even) {
-    background: lavender;
+.comment-input .user1 button {
+    background: #ffccff;
 }
 
-.comments p:nth-child(odd) {
-    background: gainsboro;
+.comment-input .user2 button {
+    background: #ccff99;
 }
 
 footer {
