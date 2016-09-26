@@ -1,5 +1,5 @@
 body {
-  background: #f9e933;
+  background: #ffff99;
 }
 
 header, main, footer {
@@ -7,6 +7,7 @@ header, main, footer {
 }
 
 header .container, main .container, footer .container {
+  padding-top: 1em;
   max-width: 855px;
   margin: auto;
 }
@@ -19,6 +20,8 @@ header {
 header h1 {
   float: left;
   width: 570px;
+  font-size: 5em;
+  color: #cc66ff;
 }
 
 header nav {
@@ -29,17 +32,28 @@ header nav {
 main {
   background: white;
   overflow: auto;
+  padding: .5em;
 }
 
-main .left {
+main .questions {
+  padding: 2em;
   float: left;
   width: 570px;
 }
-
+main li
+{
+  font-weight: bold;
+  padding: .5em;
+}
+main h2
+{
+  font-size: 2.5em;
+}
 main .right {
   float: right;
   width: 285px;
 }
+
 
 footer .left {
   float: left;
@@ -49,4 +63,10 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+}
+
+footer h5
+{
+  font-weight: bold;
+  font-size: 2em;
 }
