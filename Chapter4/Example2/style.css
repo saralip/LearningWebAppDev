@@ -75,20 +75,40 @@ main {
 }
 
 .comment-input .user1 button {
-    background: #ffccff;
+    background: #ff7733;
 }
 
 .comment-input .user2 button {
-    background: #ccff99;
+    background: #cc6699;
 }
 
-.comments p:nth-child(odd)
+/*.comments p:nth-child(odd)
 {
   background: #ccff99;
 }
 .comments p:nth-child(even)
 {
   background: #ffccff;
+}*/
+.comments .pclass .userOne:nth-child(odd)
+{
+  background: #ff9966;
+
+}
+.comments .pclass .userOne:nth-child(even)
+{
+  background: #ff7733;
+
+}
+.comments .pclass .userTwo:nth-child(odd)
+{
+  background: #e6b3cc;
+
+}
+.comments .pclass .userTwo:nth-child(even)
+{
+  background: #cc6699;
+
 }
 
 footer {

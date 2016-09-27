@@ -15,25 +15,26 @@ var main = function ()
         var $new_comment;
         var backgroundcolor;
         var $whichUser;
+        var $userTag;
 
         if (arguments[0] == 1)
         {
             $whichUser=$(".comment-input .user1 input");
-            backgroundcolor="#ffccff";
+            $userTag=$("<p class = 'userOne'>");
 
         }
         else
         {
             $whichUser=$(".comment-input .user2 input");
-            backgroundcolor="#ccff99";
+            $userTag=$("<p class = 'userTwo'>");
         }
         if (($whichUser).val() !== "")
         {
-            $new_comment = $("<p>").text(($whichUser).val());
+            $new_comment = ($userTag).text(($whichUser).val());
+
             $new_comment.hide();
-            $(".comments").append($new_comment);
+            $(".pclass").append($new_comment);
             $new_comment.fadeIn();
-            //$(".comments p:last-child").css("background-color", backgroundcolor);
             ($whichUser).val("");
 
         }
