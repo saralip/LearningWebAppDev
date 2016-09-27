@@ -103,6 +103,7 @@ main {
 .comments .pclass .userTwo:nth-child(odd)
 {
   background: #e6b3cc;
+  
 
 }
 .comments .pclass .userTwo:nth-child(even)
